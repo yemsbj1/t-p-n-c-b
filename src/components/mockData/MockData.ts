@@ -451,7 +451,117 @@ export const mockAccounts: Account[] = [
         description: 'Transfer from FDI INVESTMENT FIRM - XXXXXX7631',
         status: 'Success',
         amount_usd: 26303261.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC005',
+    holder: {
+      fullName: 'Stephen Petrosino',
+      profileImgUrl: '',
+      email: 's**@gmail.com',
+      dateCreated: '11/03/2025', // m/d/y
+      username: 'StephenPetrosino424',
+      password: 'sPetroSin@95'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      checking_balance_usd: 101056.0,
+      saving_balance_usd: 425377.58
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '2378',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'October 25, 2025',
+        description: 'Transfer from FDI INVESTMENT FIRM - XXXXXX7631',
+        status: 'Success',
+        amount_usd: 324377.0
       },
+      {
+        dateTime: 'October 3, 2025',
+        description: 'Transfer to Investment shares from raw - XXXXXX7631',
+        status: 'Success',
+        amount_usd: -50000.0
+      },
+      {
+        dateTime: 'September 5, 2025',
+        description: 'Transfer from Investment shares from uncut gemstones diamonds - XXXXXX3673',
+        status: 'Success',
+        amount_usd: 50000.0
+      },
+      {
+        dateTime: 'August 6, 2025',
+        description: 'Transfer to Investment shares from uncut gemstones diamonds - XXXXXX2854',
+        status: 'Success',
+        amount_usd: -300000.0
+      },
+      {
+        dateTime: 'July 15, 2025',
+        description: 'Investment shares from raw - XXXXXX3850',
+        status: 'Success',
+        amount_usd: 200000.0
+      },
+      {
+        dateTime: 'July 7, 2025',
+        description: 'Transfer from Investment shares from raw - XXXXXX4987',
+        status: 'Success',
+        amount_usd: 25000.0
+      },
+      {
+        dateTime: 'June 17, 2025',
+        description: 'Investment shares from uncut gemstones diamonds - XXXXXX9517',
+        status: 'Success',
+        amount_usd: 150000.0
+      },
+      {
+        dateTime: 'May 19, 2025',
+        description: 'Investment shares from raw - XXXXXX2093',
+        status: 'Success',
+        amount_usd: 670000.0
+      },
+      {
+        dateTime: 'May 9, 2025',
+        description: 'Transfer from to Investment shares from uncut gemstones diamonds - XXXXXX9340',
+        status: 'Success',
+        amount_usd: -500000.0
+      },
+      {
+        dateTime: 'April 21, 2025',
+        description: 'Investment shares from uncut gemstones diamonds - XXXXXX7182',
+        status: 'Success',
+        amount_usd: 330000.0
+      },
+      {
+        dateTime: 'April 11, 2025',
+        description: 'Transfer from Investment shares from raw - XXXXXX1126',
+        status: 'Success',
+        amount_usd: 98000.0
+      },
+      {
+        dateTime: 'March 23, 2025',
+        description: 'Investment shares from raw - XXXXXX8888',
+        status: 'Success',
+        amount_usd: 455000.0
+      },
+      {
+        dateTime: 'March 13, 2025',
+        description: 'Transfer from Investment shares from uncut gemstones diamonds - XXXXXX6438',
+        status: 'Success',
+        amount_usd: 42000.0
+      },
+      {
+        dateTime: 'February 23, 2025',
+        description: 'Transfer from FDI INVESTMENT FIRM  - XXXXXX26347',
+        status: 'Success',
+        amount_usd: -150000.0
+      }
     ]
   }
 ];
