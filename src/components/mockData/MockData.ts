@@ -480,85 +480,85 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         dateTime: 'October 15, 2025',
-        description: 'FDI INVESTMENT FIRM - XXXXXX7631',
+        description: 'Transfer from FDI INVESTMENT FIRM - XXXXXX7631',
         status: 'Pending',
         amount_usd: 324377.0
       },
       {
         dateTime: 'October 3, 2025',
-        description: 'Investment shares from raw - XXXXXX7631',
+        description: 'Transfer to Investment shares from raw - XXXXXX7631',
         status: 'Success',
-        amount_usd: 50000.0
+        amount_usd: -50000.0
       },
       {
         dateTime: 'September 5, 2025',
-        description: 'Investment shares from uncut gemstones diamonds - XXXXXX3673',
+        description: 'Transfer from Investment shares from uncut gemstones diamonds - XXXXXX3673',
         status: 'Success',
         amount_usd: 50000.0
       },
       {
         dateTime: 'August 6, 2025',
-        description: 'Investment shares from uncut gemstones diamonds - XXXXXX2854',
+        description: 'Transfer to Investment shares from uncut gemstones diamonds - XXXXXX2854',
         status: 'Success',
-        amount_usd: 300000.0
+        amount_usd: -300000.0
       },
       {
         dateTime: 'July 15, 2025',
-        description: 'Investment shares from raw - XXXXXX3850',
+        description: 'Transfer from Investment shares from raw - XXXXXX3850',
         status: 'Success',
-        amount_usd: 200000.0
+        amount_usd: 20000.0
       },
       {
         dateTime: 'July 7, 2025',
-        description: 'Investment shares from raw - XXXXXX4987',
+        description: 'Transfer to Investment shares from raw - XXXXXX4987',
         status: 'Success',
-        amount_usd: 25000.0
+        amount_usd: -25000.0
       },
       {
         dateTime: 'June 17, 2025',
-        description: 'Investment shares from uncut gemstones diamonds - XXXXXX9517',
+        description: 'Transfer from nvestment shares from uncut gemstones diamonds - XXXXXX9517',
         status: 'Success',
         amount_usd: 150000.0
       },
       {
         dateTime: 'May 19, 2025',
-        description: 'Investment shares from raw - XXXXXX2093',
+        description: 'Transfer to Investment shares from raw - XXXXXX2093',
         status: 'Success',
-        amount_usd: 670000.0
+        amount_usd: 70000.0
       },
       {
         dateTime: 'May 9, 2025',
-        description: 'Investment shares from uncut gemstones diamonds - XXXXXX9340',
+        description: 'Transfer to Investment shares from uncut gemstones diamonds - XXXXXX9340',
         status: 'Success',
-        amount_usd: 500000.0
+        amount_usd: -50000.0
       },
       {
         dateTime: 'April 21, 2025',
-        description: 'Investment shares from uncut gemstones diamonds - XXXXXX7182',
+        description: 'Transfer to Investment shares from uncut gemstones diamonds - XXXXXX7182',
         status: 'Success',
-        amount_usd: 330000.0
+        amount_usd: -3300.0
       },
       {
         dateTime: 'April 11, 2025',
-        description: 'Investment shares from raw - XXXXXX1126',
+        description: 'Transfer from Investment shares from raw - XXXXXX1126',
         status: 'Success',
-        amount_usd: 98000.0
+        amount_usd: 9800.0
       },
       {
         dateTime: 'March 23, 2025',
-        description: 'Investment shares from raw - XXXXXX8888',
+        description: 'Transfer to Investment shares from raw - XXXXXX8888',
         status: 'Success',
-        amount_usd: 455000.0
+        amount_usd: -45500.0
       },
       {
         dateTime: 'March 13, 2025',
-        description: 'Investment shares from uncut gemstones diamonds - XXXXXX6438',
+        description: 'Transfer from Investment shares from uncut gemstones diamonds - XXXXXX6438',
         status: 'Success',
         amount_usd: 42000.0
       },
       {
         dateTime: 'February 23, 2025',
-        description: 'FDI INVESTMENT FIRM  - XXXXXX26347',
+        description: 'Transfer from FDI INVESTMENT FIRM  - XXXXXX26347',
         status: 'Success',
         amount_usd: 150000.0
       }
