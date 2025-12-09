@@ -564,10 +564,10 @@ export const mockAccounts: Account[] = [
       }
     ]
   },
-    {
+  {
     account_id: 'ACC006',
     holder: {
-      fullName: 'Stephen Petrosino',
+      fullName: 'Hazel Angie',
       profileImgUrl: '',
       email: 's**@gmail.com',
       dateCreated: '12/09/2025', // m/d/y
