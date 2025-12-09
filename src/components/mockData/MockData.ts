@@ -563,5 +563,145 @@ export const mockAccounts: Account[] = [
         amount_usd: 150000.0
       }
     ]
+  },
+    {
+    account_id: 'ACC006',
+    holder: {
+      fullName: 'Stephen Petrosino',
+      profileImgUrl: '',
+      email: 's**@gmail.com',
+      dateCreated: '12/09/2025', // m/d/y
+      username: 'hazel0733',
+      password: 'AbleGod20!5'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      checking_balance_usd: 486988.0,
+      saving_balance_usd: 0.8
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '2378',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'October 23, 2025',
+        description: 'Vat fee - XXXXXX63546',
+        status: 'Success',
+        amount_usd: -8.0
+      },
+      {
+        dateTime: 'October 23, 2025',
+        description: 'authorize online payment - XXXXXX7631',
+        status: 'Success',
+        amount_usd: -99056.0
+      },
+      {
+        dateTime: 'October 23, 2025',
+        description: 'Vat fee - XXXXXX03764',
+        status: 'Success',
+        amount_usd: -8.0
+      },
+      {
+        dateTime: 'October 23, 2025',
+        description: 'card POS charge - XXXXXX7631',
+        status: 'Success',
+        amount_usd: -72000.0
+      },
+      {
+        dateTime: 'October 23, 2025',
+        description: 'Vat fee - XXXXXX2646',
+        status: 'Success',
+        amount_usd: -8.0
+      },
+      {
+        dateTime: 'October 23, 2025',
+        description: 'online payment - XXXXXX3673',
+        status: 'Success',
+        amount_usd: -425376.0
+      },
+      {
+        dateTime: 'October 21, 2025',
+        description: 'Vat fee - XXXXXX1544',
+        status: 'Success',
+        amount_usd: -8.0
+      },
+      {
+        dateTime: 'October 21, 2025',
+        description: 'order charge - XXXXXX2854',
+        status: 'Success',
+        amount_usd: -204655.0
+      },
+      {
+        dateTime: 'October 19, 2025',
+        description: 'Vat fee - XXXXXX44642',
+        status: 'Success',
+        amount_usd: -4.0
+      },
+      {
+        dateTime: 'October 19, 2025',
+        description: 'ATM machine withdrawal - XXXXXX3850',
+        status: 'Success',
+        amount_usd: -1000.0
+      },
+      {
+        dateTime: 'October 17, 2025',
+        description: 'Vat fee - XXXXXX34653',
+        status: 'Success',
+        amount_usd: -4.0
+      },
+      {
+        dateTime: 'October 17, 2025',
+        description: 'Walmart POS - XXXXXX4987',
+        status: 'Success',
+        amount_usd: -903.0
+      },
+      {
+        dateTime: 'October 17, 2025',
+        description: 'Vat fee - XXXXXX238724',
+        status: 'Success',
+        amount_usd: -4.0
+      },
+      {
+        dateTime: 'October 17, 2025',
+        description: 'Cheapoair charge - XXXXXX9517',
+        status: 'Success',
+        amount_usd: -1460.0
+      },
+      {
+        dateTime: 'October 17, 2025',
+        description: 'Check deposit - XXXXXX2093',
+        status: 'Success',
+        amount_usd: 893190.0
+      },
+      {
+        dateTime: 'October 4, 2025',
+        description: 'POS charge - XXXXXX9340',
+        status: 'Success',
+        amount_usd: -102.0
+      },
+      {
+        dateTime: 'October 4, 2025',
+        description: 'Vat fee - XXXXXX1746',
+        status: 'Success',
+        amount_usd: -4.0
+      },
+      {
+        dateTime: 'October 4, 2025',
+        description: 'electronic funds transfer paid (Cash) - XXXXXX7182',
+        status: 'Success',
+        amount_usd: -2500.0
+      },
+      {
+        dateTime: 'October 2, 2025',
+        description: 'opening wire deposit - XXXXXX1126',
+        status: 'Success',
+        amount_usd: 38000.0
+      },
+    ]
   }
 ];

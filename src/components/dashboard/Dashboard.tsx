@@ -10,6 +10,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 import { FiEye, FiEyeOff } from 'react-icons/fi';
 import Loader from '../Loader';
 import { BillIcon, CardIcon } from '../svgIcons';
+import Image from 'next/image';
 
 const getFormattedDate = () => {
   const options: Intl.DateTimeFormatOptions = {
@@ -133,6 +134,27 @@ export default function Dashboard() {
           </div>
         </div>
         <TransactionHistory user={user} hideBalance={hideBalance} />
+
+        <div className="border flex flex-col gap-4 p-6 px-4">
+          <div className="border flex flex-col gap-4 bg-white overflow-hidden">
+            <div className="w-full h-56 overflow-hidden">
+              <Image src="https://i.imgur.com/V4IQJxL.jpeg" width={5000} height={5000} className="" alt="sjsusbnnsn" />
+            </div>
+
+            <div className="text-center text-black p-3 px-7 pb-7">
+              <span>What is a certificate of deposit (CD) and how does it work?</span>
+            </div>
+          </div>
+          <div className="border flex flex-col gap-4 bg-white overflow-hidden">
+            <div className="w-full h-56 overflow-hidden">
+              <Image src="https://i.imgur.com/k7hao8C.jpeg" width={5000} height={5000} className="" alt="sjsusbnnsn" />
+            </div>
+
+            <div className="text-center text-black p-3 px-7 pb-7">
+              <span>You should choose the right credit card for yourself</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
