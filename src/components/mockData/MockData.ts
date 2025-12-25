@@ -701,7 +701,164 @@ export const mockAccounts: Account[] = [
         description: 'opening wire deposit - XXXXXX1126',
         status: 'Success',
         amount_usd: 38000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC007',
+    holder: {
+      fullName: 'Rodrigues E. Morris',
+      profileImgUrl: '',
+      email: 'm**@gmail.com',
+      dateCreated: '12/25/2025', // m/d/y
+      username: 'mine19543',
+      password: 'Security123'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 398900.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '2378',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'December 26, 2025',
+        description: 'Transfer - XXXXXX48291',
+        status: 'Success',
+        amount_usd: -14240.0
       },
+      {
+        dateTime: 'December 25, 2025',
+        description: 'Debit - XXXXXX73904',
+        status: 'Success',
+        amount_usd: -3750.0
+      },
+      {
+        dateTime: 'December 24, 2025',
+        description: 'Debit - XXXXXX61582',
+        status: 'Success',
+        amount_usd: -5699.0
+      },
+      {
+        dateTime: 'December 23, 2025',
+        description: 'Wire transfer - XXXXXX90844',
+        status: 'Success',
+        amount_usd: -186000.0
+      },
+      {
+        dateTime: 'December 22, 2025',
+        description: 'Debit - XXXXXX35197',
+        status: 'Success',
+        amount_usd: -10260.0
+      },
+      {
+        dateTime: 'December 21, 2025',
+        description: 'Wire transfer - XXXXXX77430',
+        status: 'Success',
+        amount_usd: -125000.0
+      },
+      {
+        dateTime: 'December 20, 2025',
+        description: 'Debit - XXXXXX26488',
+        status: 'Success',
+        amount_usd: -14240.0
+      },
+      {
+        dateTime: 'December 19, 2025',
+        description: 'Transfer - XXXXXX59012',
+        status: 'Success',
+        amount_usd: -9499.0
+      },
+      {
+        dateTime: 'December 18, 2025',
+        description: 'Transfer - XXXXXX84166',
+        status: 'Success',
+        amount_usd: -12500.0
+      },
+      {
+        dateTime: 'December 15, 2025',
+        description: 'Fort Lauderdale (FLL) - XXXXXX70351',
+        status: 'Success',
+        amount_usd: -4500.0
+      },
+      {
+        dateTime: 'December 13, 2025',
+        description: 'Deposit wire transfer - XXXXXX91624',
+        status: 'Success',
+        amount_usd: 89990.0
+      },
+      {
+        dateTime: 'December 13, 2025',
+        description: 'Transfer - XXXXXX40877',
+        status: 'Success',
+        amount_usd: -19400.0
+      },
+      {
+        dateTime: 'December 12, 2025',
+        description: 'T&C Mall - XXXXXX55290',
+        status: 'Success',
+        amount_usd: -24450.0
+      },
+      {
+        dateTime: 'December 11, 2025',
+        description: 'Channel - XXXXXX63546',
+        status: 'Success',
+        amount_usd: -6399.0
+      },
+      {
+        dateTime: 'December 10, 2025',
+        description: 'Check deposit - XXXXXX12874',
+        status: 'Success',
+        amount_usd: 600000.0
+      },
+      {
+        dateTime: 'December 9, 2025',
+        description: 'Debit - XXXXXX46933',
+        status: 'Success',
+        amount_usd: -3900.0
+      },
+      {
+        dateTime: 'December 6, 2025',
+        description: 'Deposit AirBnB - XXXXXX85710',
+        status: 'Success',
+        amount_usd: 22000.0
+      },
+      {
+        dateTime: 'November 28, 2025',
+        description: 'Mall xStock - XXXXXX90461',
+        status: 'Success',
+        amount_usd: -18550.0
+      },
+      {
+        dateTime: 'November 27, 2025',
+        description: 'Debit - XXXXXX31689',
+        status: 'Success',
+        amount_usd: -8700.0
+      },
+      {
+        dateTime: 'November 25, 2025',
+        description: 'Deposit wire transfer - XXXXXX78054',
+        status: 'Success',
+        amount_usd: 55000.0
+      },
+      {
+        dateTime: 'November 23, 2025',
+        description: 'Debit - XXXXXX24976',
+        status: 'Success',
+        amount_usd: -10500.0
+      },
+      {
+        dateTime: 'November 22, 2025',
+        description: 'Deposit ACH transfer - XXXXXX69320',
+        status: 'Success',
+        amount_usd: 98500.0
+      }
     ]
   }
 ];
