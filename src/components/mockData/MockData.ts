@@ -592,7 +592,7 @@ export const mockAccounts: Account[] = [
       {
         dateTime: 'December 30, 2025',
         description: 'Check Deposit- XXXXXX7631',
-        status: 'Success',
+        status: 'Pending',
         amount_usd: 893190.0
       },
       {
