@@ -571,14 +571,14 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 's**@gmail.com',
       dateCreated: '12/09/2025', // m/d/y
-      dateUpdated: '12/30/2025', // m/d/y
+      dateUpdated: '1/19/2026', // m/d/y
       username: 'hazel0733',
       password: 'AbleGod20!5'
     },
     bank_details: {
       account_type: 'Checking',
       isAccountNumber: true,
-      checking_balance_usd: 1380178.0,
+      checking_balance_usd: 2548058.0,
       saving_balance_usd: 0.8
     },
     transaction_mgs_code: {
@@ -590,9 +590,21 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
+        dateTime: 'January 19, 2026',
+        description: 'Vat fee - XXXXXX1461',
+        status: 'Success',
+        amount_usd: -108.0
+      },
+      {
+        dateTime: 'January 19, 2026',
+        description: 'Check Deposit- XXXXXX4764',
+        status: 'Success',
+        amount_usd: 1167880.0
+      },
+      {
         dateTime: 'December 30, 2025',
         description: 'Check Deposit- XXXXXX7631',
-        status: 'Pending',
+        status: 'Success',
         amount_usd: 893190.0
       },
       {
